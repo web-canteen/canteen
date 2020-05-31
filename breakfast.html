@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICT CANTEEN|BREAKFAST</title>
+    <style>
+        *{
+            padding: 0rem;
+            margin: 0rem;
+        }
+        html{
+            color: rgba(14, 14, 14, 0.966);
+            font-family: sans-serif;
+        }
+        body {
+            /* background-color: #13103ff6 */
+            background-image: url(bg.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: fantasy;
+            letter-spacing: 10px;
+            width: 100%;
+            height: auto;
+
+        }
+
+        .container {
+            width: 70%;
+            height: auto;
+            border: 1px solid black;
+            margin: 1rem 0rem;
+            border-top-right-radius: 3rem;
+            border-bottom-left-radius: 3rem;
+            background-color: rgba(37, 34, 30, 0.33);
+            /* box-shadow: black; */
+        }
+
+        .heading, .body{
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            text-align: justify;
+
+        }
+
+        .body{
+            margin-top: 10rem;
+        }
+        h1{
+            font-size: 5rem;
+
+
+        }
+
+        h2{
+            margin: 5px;
+            font-size: 2rem;
+            
+        }
+
+        @media only screen and (max-width:992px){
+            html{
+                font-size: 5px;
+                letter-spacing: normal;
+            }
+        }
+        #fir{
+            padding: 1rem 9rem;
+            text-align: center;
+        }
+        td{
+            text-align: center;
+        }
+        .td1{
+            text-align: justify;
+            padding:1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="heading"> 
+            <h1>BREAKFAST</h1>
+        </div>
+        <div class="body">
+            <div class="tab">
+
+
+                <table border="true" >
+                    <thead>
+                        <tr>
+                            <th id="fir">ITEMS</th>
+                            <th>PRICE</th>
+                        </tr>
+
+                        <tr>
+                            <td class="td1">MEDU-WADA</td>
+                            <td>30/-</td>
+                        </tr>
+                        <tr>
+                            <td class="td1">MISAL-PAV </td>
+                            <td>30/-</td>
+                        </tr>
+                        <tr>
+                            <td class="td1">UTTHAPPA</td>
+                            <td>30/-</td>
+                        </tr>
+                        <tr>
+                            <td class="td1">UPMA</td>
+                            <td>30/-</td>
+                        </tr>
+                        <tr>
+                            <td class="td1">KHICHDI</td>
+                            <td>50/-</td>
+                        </tr>
+                        <tr>
+                            <td class="td1">PARATHA</td>
+                            <td>50/-</td>
+                        </tr>
+                        <tr>
+                            <td class="td1">RICE</td>
+                            <td>60/-</td>
+                        </tr>
+            
+                    </thead>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
